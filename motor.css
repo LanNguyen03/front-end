@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+header{
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: green;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.logo img{
+    float:left;
+    width: 200px;
+    height: auto;
+}
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+.all{ 
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24%;
+    grid-template-rows: 220px 220px;
+    grid-column-gap: 180px;
+    grid-row-gap: 180px;
+}
+.items img{
+    width:630px;
+    height:390px;
+}
