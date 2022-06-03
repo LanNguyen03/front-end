@@ -55,3 +55,6 @@ h1{
     width:630px;
     height:390px;
 }
+.items img:hover{
+    transform: scale(1.1);
+}
