@@ -50,4 +50,8 @@ ul li a:hover{
     margin-top: 20px;
 }
 
+#siba #left img:hover{
+    transform: scale(1.1);
+}
+
 
